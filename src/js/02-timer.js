@@ -36,4 +36,3 @@ const options = {
 };
 flatpickr('#datetime-picker', options);
 console.log(timer);
-//console.log(dataContainer);
