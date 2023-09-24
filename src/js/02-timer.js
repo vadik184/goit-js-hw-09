@@ -21,10 +21,10 @@ displayTimer.style.display = 'flex';
 displayTimer.style.gap = '40px';
 const startButton = document.querySelector('button[data-start]');
 startButton.setAttribute('disabled', true);
-function getDate(event) {
-    let selectedDate = ;
-    
-}
+// function getDate(event) {
+//     let selectedDate = ;
+
+// }
 const options = {
   enableTime: true,
   time_24hr: true,
