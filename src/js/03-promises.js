@@ -32,8 +32,8 @@ const getPromises = evt => {
 
   for (let position = 0; position < amountVlaue; position += 1) {
     setTimeout(
-      async () => createPromise(position + 1, (delayValue += stepValue)),
-      position * stepValue
+      run () => createPromise(position + 1, (delayValue += stepValue)),
+      (delayValue + position * stepValue)
     );
   }
 };
